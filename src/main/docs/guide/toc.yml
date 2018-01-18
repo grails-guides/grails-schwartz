@@ -1,0 +1,11 @@
+training:
+  title: Training
+gettingStarted: 
+  title: Getting Started
+  howto: How to complete the guide
+writing:
+  title: Writing the Guide
+running:
+  title: Running the app
+helpWithGrails:
+  title: Help with Grails  
