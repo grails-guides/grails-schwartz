@@ -5,6 +5,7 @@ gettingStarted:
   howto: How to complete the guide
 writing:
   title: Writing the Guide
+  install: Installing the plugin
 running:
   title: Running the app
 helpWithGrails:
