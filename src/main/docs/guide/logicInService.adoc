@@ -1,0 +1,23 @@
+Although the previous example is valid, usually you don't want to put your business logic in a Job. It is always better
+to put it in a Service because that is where it belongs and it is also easier to maintain and test. Let's see a simple
+example:
+
+Create the following service:
+
+[source, groovy]
+.grails-app/services/demo/EmailService.groovy
+----
+include::{sourceDir}/grails-app/services/demo/EmailService.groovy[]
+----
+
+And then the job:
+
+[source, groovy]
+.grails-app/services/demo/DailyEmailJobService.groovy
+----
+include::{sourceDir}/grails-app/services/demo/DailyEmailJobService.groovy[tag=dailyEmailJobService]
+----
+<1> Inject the service
+<2> Call it
+<3> Trigger the job once a day at 04:30 AM
+
