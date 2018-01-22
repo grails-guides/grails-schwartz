@@ -6,6 +6,7 @@ gettingStarted:
 writing:
   title: Writing the Guide
   install: Installing the plugin
+  createSimpleJob: Creating a simple Job
 running:
   title: Running the app
 helpWithGrails:
