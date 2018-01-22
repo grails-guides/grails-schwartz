@@ -1,0 +1,4 @@
+Sometimes you want to limit the concurrent execution of a job. Using just Quartz you need to annotate the job with
+`@DisallowConcurrentExecution`. With _Schwartz_ you still can do it, or, if you prefer you can implement the trait
+`StatefulSchwartzJob` instead of `SchwartzJob`.
+
