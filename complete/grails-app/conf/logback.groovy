@@ -34,3 +34,6 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
 }
 root(ERROR, ['STDOUT'])
+//tag::logdemo[]
+logger('demo', INFO, ['STDOUT'], false)
+//end::logdemo[]

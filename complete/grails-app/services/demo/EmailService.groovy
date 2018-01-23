@@ -6,6 +6,6 @@ import groovy.transform.CompileStatic
 class EmailService {
 
     void send(String user) {
-        println "Sending email to ${user}"
+        log.info "Sending email to ${user}"
     }
 }
