@@ -66,6 +66,6 @@ DEFAULT.Simple Job every 45 seconds -> Fri Jan 19 13:25:43 CET 2018 # <4>
 DEFAULT.Simple Job every 10 seconds -> Fri Jan 19 13:25:53 CET 2018
 ----
 <1> First execution of 10 seconds job just after the application starts
-<2> The 45 seconds job just starts 5 seconds after the app starts
+<2> The 45 seconds job just starts 5 seconds after the app starts. See `startDelay` in the trigger configuration.
 <3> Second execution of 10 seconds job just 10 seconds after the first execution
 <4> Second execution of 45 seconds job just 45 seconds after the first execution
