@@ -6,13 +6,15 @@ import groovy.util.logging.Slf4j
 import org.quartz.JobExecutionContext
 import org.quartz.JobExecutionException
 
+import java.text.SimpleDateFormat
+
 @CompileStatic
 @Slf4j
 class HelloWorldJobService implements SchwartzJob {
 
     //tag::helloWorldJob[]
     void execute(JobExecutionContext context) throws JobExecutionException {
-        println "${context.trigger.key} -> ${new Date()}" // <1>
+        log.info "{}:{}", context.trigger.key, new SimpleDateFormat("dd/M/yyyy hh:mm:ss").format(new Date()) // <1>
     }
 
     void buildTriggers() {
