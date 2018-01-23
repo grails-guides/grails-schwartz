@@ -8,6 +8,7 @@ writing:
   install: Installing the plugin
   createSimpleJob: Creating a simple Job
   logicInService: Business logic in Services
+  triggerManually: Scheduling a Job with data manually 
   concurrentExecution: Concurrent Job execution
 helpWithGrails:
   title: Help with Grails  
