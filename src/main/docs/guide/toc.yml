@@ -10,5 +10,6 @@ writing:
   logicInService: Business logic in Services
   triggerManually: Scheduling a Job with data manually 
   concurrentExecution: Concurrent Job execution
+  summary: Summary
 helpWithGrails:
   title: Help with Grails  
